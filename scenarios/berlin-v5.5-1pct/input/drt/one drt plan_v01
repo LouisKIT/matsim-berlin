@@ -1,0 +1,46 @@
+
+<!-- ====================================================================== -->
+
+	<person id="100041201">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">brandenburg</attribute>
+			<attribute name="income" class="java.lang.Double">1399.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="129.90884548967824" selected="yes">
+			<activity type="home_70800.0" link="652" x="4627569.655353499" y="5828417.136591227" end_time="08:04:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="08:04:00" trav_time="00:19:56">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="652" end_link="121587" trav_time="00:9:56" distance="1873.227378638819"></route>
+			</leg>
+			<activity type="drt interaction" link="121587" x="4626957.2927874485" y="5827112.785375162" max_dur="00:00:00" >
+			</activity>			
+			<leg mode="drt" dep_time="10:00:00" trav_time="00:10:00">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="links" start_link="121587" end_link="121587" trav_time="00:10:00" distance="1873.227378638819"></route>121587 121577 121587
+			</leg>		
+			<activity type="drt interaction" link="121587" x="4626957.2927874485" y="5827112.785375162" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="15:12:11" trav_time="00:36:11">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="93726" end_link="652" trav_time="00:36:11" distance="3047.994596390457"></route>
+			</leg>
+			<activity type="home_70800.0" link="652" x="4627569.655353499" y="5828417.136591227" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">41700</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>

@@ -1,0 +1,795 @@
+
+<!-- ====================================================================== -->
+
+	<person id="401813301">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">berlin</attribute>
+			<attribute name="income" class="java.lang.Double">2070.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="141.25339420782586" selected="no">
+			<activity type="home_94800.0" link="71689" x="4594523.550141339" y="5829598.127754628" end_time="10:15:47" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:15:47" trav_time="00:08:56">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">walk</attribute>
+				</attributes>
+				<route type="generic" start_link="71689" end_link="83783" trav_time="00:08:56" distance="566.0628879122581"></route>
+			</leg>
+			<activity type="other_600.0" link="83783" x="4594621.388520493" y="5830022.426636262" max_dur="00:08:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">180</attribute>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:32:43" trav_time="00:08:56">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">walk</attribute>
+				</attributes>
+				<route type="generic" start_link="83783" end_link="71689" trav_time="00:08:56" distance="566.0628879122581"></route>
+			</leg>
+			<activity type="home_94800.0" link="71689" x="4594523.550141339" y="5829598.127754628" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">62220</attribute>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+		<plan score="138.6982776312773" selected="yes">
+			<activity type="home_94800.0" link="71689" x="4594523.550141339" y="5829598.127754628" end_time="10:15:47" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:15:47" trav_time="00:00:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="71689" end_link="152604" trav_time="00:00:45" distance="48.285791020847405"></route>
+			</leg>
+			<activity type="drt interaction" link="152604" x="4594500.747502562" y="5829627.447302482" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="10:16:33" trav_time="00:07:54">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="152604" end_link="83783" trav_time="00:07:54" distance="1037.681868452199">300.0 208.7665374999924</route>
+			</leg>
+			<activity type="drt interaction" link="83783" x="4594660.349221545" y="5830032.315505157" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="10:24:28" trav_time="00:00:49">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="83783" end_link="83783" trav_time="00:00:49" distance="52.25492190316747"></route>
+			</leg>
+			<activity type="other_600.0" link="83783" x="4594621.388520493" y="5830022.426636262" max_dur="00:08:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">180</attribute>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:33:15" trav_time="00:00:49">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="83783" end_link="83783" trav_time="00:00:49" distance="52.25492190316747"></route>
+			</leg>
+			<activity type="drt interaction" link="83783" x="4594660.349221545" y="5830032.315505157" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="10:34:05" trav_time="00:10:17">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="83783" end_link="152604" trav_time="00:10:24" distance="1380.9901906860905">300.0 296.5627999999924</route>
+			</leg>
+			<activity type="drt interaction" link="152604" x="4594500.747502562" y="5829627.447302482" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="10:44:24" trav_time="00:00:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="152604" end_link="71689" trav_time="00:00:45" distance="48.285791020847405"></route>
+			</leg>
+			<activity type="home_94800.0" link="71689" x="4594523.550141339" y="5829598.127754628" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">62220</attribute>
+					<attribute name="zoneId" class="java.lang.String">903020209</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>
+	
+	
+	
+<!-- ====================================================================== -->
+
+	<person id="400939801">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">berlin</attribute>
+			<attribute name="income" class="java.lang.Double">4329.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="141.83982625562146" selected="no">
+			<activity type="home_88800.0" link="103892" x="4610304.511919663" y="5823365.552994898" end_time="09:05:34" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:05:34" trav_time="00:07:02">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="103892" end_link="2482" trav_time="00:07:02" distance="445.7161929835694"></route>
+			</leg>
+			<activity type="leisure_600.0" link="2482" x="4610059.972007414" y="5823605.869989219" max_dur="00:14:25" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">600</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:27:01" trav_time="00:03:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="2482" end_link="34844" trav_time="00:03:40" distance="232.5609921113313"></route>
+			</leg>
+			<activity type="leisure_4200.0" link="34844" x="4610178.548442436" y="5823471.920894943" max_dur="00:59:25" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">3960</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:30:06" trav_time="00:03:23">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="34844" end_link="103892" trav_time="00:03:23" distance="214.32631174517633"></route>
+			</leg>
+			<activity type="home_88800.0" link="103892" x="4610304.511919663" y="5823365.552994898" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">59760</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+		<plan score="140.2997830778791" selected="yes">
+			<activity type="home_88800.0" link="103892" x="4610304.511919663" y="5823365.552994898" end_time="09:05:34" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:05:34" trav_time="00:02:59">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="103892" end_link="2591" trav_time="00:02:59" distance="189.45887221832675"></route>
+			</leg>
+			<activity type="drt interaction" link="2591" x="4610170.8211997645" y="5823423.572282397" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="09:08:34" trav_time="00:04:54">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="2591" end_link="2483" trav_time="00:04:54" distance="525.3396176486573">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="2483" x="4609981.61373757" y="5823588.041571985" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="09:13:29" trav_time="00:01:38">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="2483" end_link="2482" trav_time="00:01:38" distance="104.46914302676333"></route>
+			</leg>
+			<activity type="leisure_600.0" link="2482" x="4610059.972007414" y="5823605.869989219" max_dur="00:14:25" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">600</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:29:30" trav_time="00:01:38">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="2482" end_link="2483" trav_time="00:01:38" distance="104.46914302676333"></route>
+			</leg>
+			<activity type="drt interaction" link="2483" x="4609981.61373757" y="5823588.041571985" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="09:31:09" trav_time="00:03:50">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="2483" end_link="2591" trav_time="00:03:50" distance="267.08366952737003">300.0 64.96898250000231</route>
+			</leg>
+			<activity type="drt interaction" link="2591" x="4610170.8211997645" y="5823423.572282397" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="09:35:01" trav_time="00:01:00">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="2591" end_link="34844" trav_time="00:01:00" distance="63.6508810496034"></route>
+			</leg>
+			<activity type="leisure_4200.0" link="34844" x="4610178.548442436" y="5823471.920894943" max_dur="00:59:25" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">3960</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="10:35:24" trav_time="00:03:23">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="34844" end_link="103892" trav_time="00:03:23" distance="214.32631174517633"></route>
+			</leg>
+			<activity type="home_88800.0" link="103892" x="4610304.511919663" y="5823365.552994898" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">59760</attribute>
+					<attribute name="zoneId" class="java.lang.String">910020517</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+	<person id="399814801">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">berlin</attribute>
+			<attribute name="income" class="java.lang.Double">2070.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="136.10602567327825" selected="no">
+			<activity type="home_78000.0" link="152183" x="4581400.883019635" y="5821348.900614085" end_time="13:59:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="13:59:00" trav_time="00:10:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="152183" end_link="48156" trav_time="00:10:21" distance="1951.4667585573386"></route>
+			</leg>
+			<activity type="shopping_2400.0" link="48156" x="4582635.921925656" y="5822202.167864753" max_dur="00:38:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">2280</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020627</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="14:47:21" trav_time="00:10:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="48156" end_link="152183" trav_time="00:10:21" distance="1951.4667585573386"></route>
+			</leg>
+			<activity type="home_14400.0" link="152183" x="4581400.883019635" y="5821348.900614085" end_time="18:41:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">14220</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:41:00" trav_time="00:02:08">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="152183" end_link="26504" trav_time="00:02:08" distance="136.0097194860317"></route>
+			</leg>
+			<activity type="shopping_600.0" link="26504" x="4581418.117122837" y="5821245.706967184" max_dur="00:01:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">60</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:44:08" trav_time="00:02:08">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">walk</attribute>
+				</attributes>
+				<route type="generic" start_link="26504" end_link="152183" trav_time="00:02:08" distance="136.0097194860317"></route>
+			</leg>
+			<activity type="home_78000.0" link="152183" x="4581400.883019635" y="5821348.900614085" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">27720</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+		<plan score="133.93927014853378" selected="yes">
+			<activity type="home_78000.0" link="152183" x="4581400.883019635" y="5821348.900614085" end_time="13:59:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="13:59:00" trav_time="00:10:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="152183" end_link="48156" trav_time="00:10:21" distance="1951.4667585573386"></route>
+			</leg>
+			<activity type="shopping_2400.0" link="48156" x="4582635.921925656" y="5822202.167864753" max_dur="00:38:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">2280</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020627</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="14:47:21" trav_time="00:10:21">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="48156" end_link="152183" trav_time="00:10:21" distance="1951.4667585573386"></route>
+			</leg>
+			<activity type="home_14400.0" link="152183" x="4581400.883019635" y="5821348.900614085" end_time="18:41:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">14220</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:41:00" trav_time="00:00:39">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="152183" end_link="152183" trav_time="00:00:39" distance="41.767586769086876"></route>
+			</leg>
+			<activity type="drt interaction" link="152183" x="4581410.0776496725" y="5821379.685769965" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="18:41:40" trav_time="00:02:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="152183" end_link="152181" trav_time="00:02:40" distance="153.33830183079857">300.0 23.906730000002426</route>
+			</leg>
+			<activity type="drt interaction" link="152181" x="4581413.6832473185" y="5821242.677208262" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="18:44:21" trav_time="00:00:06">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="152181" end_link="26504" trav_time="00:00:06" distance="6.98121681420194"></route>
+			</leg>
+			<activity type="shopping_600.0" link="26504" x="4581418.117122837" y="5821245.706967184" max_dur="00:01:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">60</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:45:25" trav_time="00:02:08">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">walk</attribute>
+				</attributes>
+				<route type="generic" start_link="26504" end_link="152183" trav_time="00:02:08" distance="136.0097194860317"></route>
+			</leg>
+			<activity type="home_78000.0" link="152183" x="4581400.883019635" y="5821348.900614085" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">27720</attribute>
+					<attribute name="zoneId" class="java.lang.String">905020626</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>
+
+<!-- ====================================================================== -->
+
+
+	<person id="397290701">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">berlin</attribute>
+			<attribute name="income" class="java.lang.Double">2659.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="134.95079547610635" selected="no">
+			<activity type="home_83400.0" link="33560" x="4597431.175096542" y="5823244.405840908" end_time="08:00:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="08:00:00" trav_time="00:12:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">walk</attribute>
+				</attributes>
+				<route type="generic" start_link="33560" end_link="34431" trav_time="00:12:18" distance="779.8201003381066"></route>
+			</leg>
+			<activity type="other_5400.0" link="34431" x="4597811.127370945" y="5822780.218134156" max_dur="01:25:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">5100</attribute>
+					<attribute name="zoneId" class="java.lang.String">902040501</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:37:18" trav_time="00:12:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="34431" end_link="33560" trav_time="00:12:18" distance="779.8201003381066"></route>
+			</leg>
+			<activity type="home_4800.0" link="33560" x="4597431.175096542" y="5823244.405840908" max_dur="01:16:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">4560</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="11:05:36" trav_time="00:08:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="33560" end_link="33142" trav_time="00:08:07" distance="1529.3846134913385"></route>
+			</leg>
+			<activity type="shopping_1800.0" link="33142" x="4596386.011689726" y="5822704.34347784" max_dur="00:32:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">1920</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071638</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="11:45:43" trav_time="00:08:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="33142" end_link="33560" trav_time="00:08:07" distance="1529.3846134913385"></route>
+			</leg>
+			<activity type="home_83400.0" link="33560" x="4597431.175096542" y="5823244.405840908" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">54780</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+		<plan score="134.0992927128993" selected="yes">
+			<activity type="home_83400.0" link="33560" x="4597431.175096542" y="5823244.405840908" end_time="08:00:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="08:00:00" trav_time="00:01:22">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="33560" end_link="33558" trav_time="00:01:22" distance="87.45181667941118"></route>
+			</leg>
+			<activity type="drt interaction" link="33558" x="4597364.179949387" y="5823238.324091312" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="08:01:23" trav_time="00:07:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="33558" end_link="23597" trav_time="00:07:07" distance="804.8959726975481">300.0 180.77793750000274</route>
+			</leg>
+			<activity type="drt interaction" link="23597" x="4597729.664440133" y="5822722.462419181" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="08:08:31" trav_time="00:02:02">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="23597" end_link="34431" trav_time="00:02:02" distance="129.81742790546403"></route>
+			</leg>
+			<activity type="other_5400.0" link="34431" x="4597811.127370945" y="5822780.218134156" max_dur="01:25:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">5100</attribute>
+					<attribute name="zoneId" class="java.lang.String">902040501</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="09:35:31" trav_time="00:12:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">pt</attribute>
+				</attributes>
+				<route type="generic" start_link="34431" end_link="33560" trav_time="00:12:18" distance="779.8201003381066"></route>
+			</leg>
+			<activity type="home_4800.0" link="33560" x="4597431.175096542" y="5823244.405840908" max_dur="01:16:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">4560</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="11:03:49" trav_time="00:08:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="33560" end_link="33142" trav_time="00:08:07" distance="1529.3846134913385"></route>
+			</leg>
+			<activity type="shopping_1800.0" link="33142" x="4596386.011689726" y="5822704.34347784" max_dur="00:32:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">1920</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071638</attribute>
+				</attributes>
+			</activity>
+			<leg mode="bicycle" dep_time="11:43:56" trav_time="00:08:07">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">bicycle</attribute>
+				</attributes>
+				<route type="generic" start_link="33142" end_link="33560" trav_time="00:08:07" distance="1529.3846134913385"></route>
+			</leg>
+			<activity type="home_83400.0" link="33560" x="4597431.175096542" y="5823244.405840908" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">54780</attribute>
+					<attribute name="zoneId" class="java.lang.String">903071639</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>
+
+
+
+
+	<person id="100122901">
+		<attributes>
+			<attribute name="home-activity-zone" class="java.lang.String">brandenburg</attribute>
+			<attribute name="income" class="java.lang.Double">2070.0</attribute>
+			<attribute name="subpopulation" class="java.lang.String">person</attribute>
+		</attributes>
+		<plan score="116.08578148063886" selected="yes">
+			<activity type="home_52800.0" link="10092" x="4624568.046990783" y="5823103.929176997" end_time="06:58:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="06:58:00" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="07:10:45" trav_time="00:08:28">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="10092" end_link="26706" trav_time="00:08:28" distance="4080.514228534388">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="26706" x="4626663.542903592" y="5826547.13262539" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="07:19:13" trav_time="00:05:01">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="26706" end_link="26706" trav_time="00:05:01" distance="317.7702627041612"></route>
+			</leg>
+			<activity type="other_600.0" link="26706" x="4626907.192151641" y="5826566.761792386" max_dur="00:11:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">660</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="07:35:14" trav_time="00:05:01">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="26706" end_link="26706" trav_time="00:05:01" distance="317.7702627041612"></route>
+			</leg>
+			<activity type="drt interaction" link="26706" x="4626663.542903592" y="5826547.13262539" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="07:40:15" trav_time="00:08:59">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="26706" end_link="10092" trav_time="00:08:59" distance="4080.514228534388">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="07:49:14" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="home_29400.0" link="10092" x="4624568.046990783" y="5823103.929176997" end_time="15:51:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">29520</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="15:51:00" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="16:03:45" trav_time="00:16:27">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="10092" end_link="105771" trav_time="00:16:27" distance="9117.931507971596">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="105771" x="4631356.819851674" y="5824157.977774079" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:20:12" trav_time="00:00:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="105771" end_link="105771" trav_time="00:00:40" distance="42.59093228242632"></route>
+			</leg>
+			<activity type="other_8400.0" link="105771" x="4631330.425278839" y="5824177.3863267545" end_time="18:14:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">8160</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064153</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:14:00" trav_time="00:00:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="105771" end_link="105771" trav_time="00:00:40" distance="42.59093228242632"></route>
+			</leg>
+			<activity type="drt interaction" link="105771" x="4631356.819851674" y="5824157.977774079" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="18:14:40" trav_time="00:05:18">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="105771" end_link="4133" trav_time="00:05:18" distance="3001.2572562891164">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="4133" x="4630205.922669288" y="5823651.624864612" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="18:19:58" trav_time="00:02:33">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="4133" end_link="4133" trav_time="00:02:33" distance="162.26852647626202"></route>
+			</leg>
+			<activity type="shopping_1200.0" link="4133" x="4630195.2171087265" y="5823527.262858605" max_dur="00:21:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">1260</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064408</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:43:31" trav_time="00:02:33">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="4133" end_link="4133" trav_time="00:02:33" distance="162.26852647626202"></route>
+			</leg>
+			<activity type="drt interaction" link="4133" x="4630205.922669288" y="5823651.624864612" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="18:46:04" trav_time="00:14:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="4133" end_link="10092" trav_time="00:14:45" distance="8299.444293905077">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="19:00:49" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="home_52800.0" link="10092" x="4624568.046990783" y="5823103.929176997" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">27720</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+		<plan score="105.38180617176965" selected="no">
+			<activity type="home_52800.0" link="10092" x="4624568.046990783" y="5823103.929176997" end_time="06:58:00" >
+				<attributes>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="06:58:00" trav_time="01:25:46">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="26706" trav_time="01:25:46" distance="5432.508497162076"></route>
+			</leg>
+			<activity type="other_600.0" link="26706" x="4626907.192151641" y="5826566.761792386" max_dur="00:11:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">660</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="08:34:46" trav_time="01:25:46">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="26706" end_link="10092" trav_time="01:25:46" distance="5432.508497162076"></route>
+			</leg>
+			<activity type="home_29400.0" link="10092" x="4624568.046990783" y="5823103.929176997" end_time="15:51:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">29520</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="15:51:00" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="16:03:45" trav_time="00:16:06">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="10092" end_link="105771" trav_time="00:16:06" distance="9117.931507971596">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="105771" x="4631356.819851674" y="5824157.977774079" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="16:19:51" trav_time="00:00:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="105771" end_link="105771" trav_time="00:00:40" distance="42.59093228242632"></route>
+			</leg>
+			<activity type="other_8400.0" link="105771" x="4631330.425278839" y="5824177.3863267545" end_time="18:14:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">8160</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064153</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:14:00" trav_time="00:00:40">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="105771" end_link="105771" trav_time="00:00:40" distance="42.59093228242632"></route>
+			</leg>
+			<activity type="drt interaction" link="105771" x="4631356.819851674" y="5824157.977774079" max_dur="00:00:00" >
+			</activity>00.0 102
+			<leg mode="drt" dep_time="18:14:40" trav_time="00:04:38">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="links" start_link="105771" end_link="4133" trav_time="00:04:38" distance="3001.2572562891164">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="4133" x="4630205.922669288" y="5823651.624864612" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="18:19:18" trav_time="00:02:33">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="4133" end_link="4133" trav_time="00:02:33" distance="162.26852647626202"></route>
+			</leg>
+			<activity type="shopping_1200.0" link="4133" x="4630195.2171087265" y="5823527.262858605" max_dur="00:21:00" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">1260</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064408</attribute>
+				</attributes>
+			</activity>
+			<leg mode="walk" dep_time="18:42:51" trav_time="00:02:33">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="4133" end_link="4133" trav_time="00:02:33" distance="162.26852647626202"></route>
+			</leg>
+			<activity type="drt interaction" link="4133" x="4630205.922669288" y="5823651.624864612" max_dur="00:00:00" >
+			</activity>
+			<leg mode="drt" dep_time="18:45:24" trav_time="00:14:53">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="drt" start_link="4133" end_link="10092" trav_time="00:14:53" distance="8299.444293905077">300.0 102.8726650000026</route>
+			</leg>
+			<activity type="drt interaction" link="10092" x="4624607.105201861" y="5823723.922305021" max_dur="00:00:00" >
+			</activity>
+			<leg mode="walk" dep_time="19:00:17" trav_time="00:12:45">
+				<attributes>
+					<attribute name="routingMode" class="java.lang.String">drt</attribute>
+				</attributes>
+				<route type="generic" start_link="10092" end_link="10092" trav_time="00:12:45" distance="807.5888609174218"></route>
+			</leg>
+			<activity type="home_52800.0" link="10092" x="4624568.046990783" y="5823103.929176997" >
+				<attributes>
+					<attribute name="cemdapStopDuration_s" class="java.lang.Integer">27720</attribute>
+					<attribute name="zoneId" class="java.lang.String">12064472</attribute>
+				</attributes>
+			</activity>
+		</plan>
+
+	</person>
+
+	
+<!-- ====================================================================== -->
+
+
